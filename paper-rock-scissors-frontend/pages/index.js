@@ -8,7 +8,6 @@ export default function Home() {
     const [computerScore, setComputerScore] = useState(0);
     const [resultClass, setResultClass] = useState("");
 
-    // Function to play the game
     const playGame = (playerChoice) => {
         const computerChoice = choices[Math.floor(Math.random() * choices.length)];
         let outcome = "";
@@ -33,7 +32,6 @@ export default function Home() {
         setResult(`You chose ${playerChoice}. Computer chose ${computerChoice}. ${outcome}`);
     };
 
-    // Function to reset the game
     const resetGame = () => {
         setPlayerScore(0);
         setComputerScore(0);
