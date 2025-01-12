@@ -14,10 +14,13 @@ A simple game built with Next.js and React.
    git clone https://github.com/your-username/paper-rock-scissors.git
 
 2. Navigate to the project folder:
+   ```bash
    cd paper-rock-scissors
 
-3. Install dependencies:
+4. Install dependencies:
+   ```bash
    npm install
 
-4. Start the development server:
+5. Start the development server:
+   ```bash
    npm run dev
