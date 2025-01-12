@@ -1,5 +1,6 @@
 import "../styles/globals.css";
-import { ConvexClientProvider } from "./ConvexClientProvider";
+import { ConvexClientProvider } from "../components/ConvexClientProvider";
+
 
 function MyApp({ Component, pageProps }) {
   return (
